@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="SpellCheckerCustomDictionarySample.Global_asax" Language="C#" %>
