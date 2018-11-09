@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="SpellCheckerCustomDictionarySample.Default" %>
 
-<%@ Register assembly="DevExpress.Web.ASPxSpellChecker.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxSpellChecker" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.ASPxSpellChecker.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxSpellChecker" tagprefix="dx" %>
 
 <!DOCTYPE html>
 
