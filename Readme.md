@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/SpellCheckerCustomDictionarySample/Default.aspx) (VB: [Default.aspx](./VB/SpellCheckerCustomDictionarySample/Default.aspx))
-* [Default.aspx.cs](./CS/SpellCheckerCustomDictionarySample/Default.aspx.cs) (VB: [Default.aspx](./VB/SpellCheckerCustomDictionarySample/Default.aspx))
+* [Default.aspx.cs](./CS/SpellCheckerCustomDictionarySample/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/SpellCheckerCustomDictionarySample/Default.aspx.vb))
 <!-- default file list end -->
 # How to load a user-specific dictionary and update it during spelling check
 
