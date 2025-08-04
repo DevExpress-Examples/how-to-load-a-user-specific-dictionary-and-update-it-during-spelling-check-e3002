@@ -1,25 +1,11 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128605905/24.2.1%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3002)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-[![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# ASP.NET Web Forms Spell Checker - Load a custom dictionary and update it during spell check operations
+
+This example demonstrates how to load a custom dictionary once a spelling check operation is started and save the words added by a user. Handle the [CustomDictionaryLoading](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxSpellChecker.ASPxSpellChecker.CustomDictionaryLoading) event to load a custom dictionary from the stream. Once a word is added to the custom dictionary (using the 'Add to Dictionary' button on the Check Spelling form), the [WordAdded](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxSpellChecker.ASPxSpellChecker.WordAdded)> event is raised. After that, the updated custom dictionary is saved to its original location.
+
+## Files to Review
 
 * [Default.aspx](./CS/SpellCheckerCustomDictionarySample/Default.aspx) (VB: [Default.aspx](./VB/SpellCheckerCustomDictionarySample/Default.aspx))
 * [Default.aspx.cs](./CS/SpellCheckerCustomDictionarySample/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/SpellCheckerCustomDictionarySample/Default.aspx.vb))
-<!-- default file list end -->
-# How to load a user-specific dictionary and update it during spelling check
-
-
-<p>This example demonstrates how to load a user-specific dictionary when spelling check is started and save the words added by the end-user.<br />
-The <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxSpellCheckerASPxSpellChecker_CustomDictionaryLoadingtopic"><u>CustomDictionaryLoading</u></a> event enables you to load a custom dictionary from the stream when the spelling check begins. <br />
-The <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxSpellCheckerASPxSpellChecker_WordAddedtopic"><u>WordAdded</u></a> event is fired after a word is added to the custom dictionary (using the 'Add to Dictionary' button located on the Check Spelling form). Then the updated custom dictionary is saved to its original location.<br />
-</p>
-
-<br/>
-
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
