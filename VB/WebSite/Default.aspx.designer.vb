@@ -8,9 +8,6 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-
-Imports Microsoft.VisualBasic
-Imports System
 Namespace CustomDictionary
 
 
@@ -21,6 +18,7 @@ Namespace CustomDictionary
 	''' Auto-generated class.
 	''' </remarks>
 	Partial Public Class _Default
+		Inherits System.Web.UI.Page
 
 		''' <summary>
 		''' ASPxGlobalEvents1 control.
@@ -38,7 +36,7 @@ Namespace CustomDictionary
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+		Protected form1 As System.Web.UI.HtmlControls.HtmlForm
 
 		''' <summary>
 		''' checkButton control.
